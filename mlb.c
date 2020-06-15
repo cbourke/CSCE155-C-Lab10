@@ -3,8 +3,8 @@
  * baseball teams, sorts them according to win percentage and
  * prints them to the standard output.
  */
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 
 /**

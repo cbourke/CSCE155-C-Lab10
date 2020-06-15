@@ -2,8 +2,8 @@
  * This program processes a CSV file containing data on US
  * States and produces an XML-formatted file with the same data.
  */
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 
