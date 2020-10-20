@@ -24,7 +24,6 @@ int main(int argc, char **argv) {
   int const numStates = 50;
   char filePath[] = "data/stateData.txt";
   char tempBuffer[size];
-  char tmp[size];
 
   // setup arrays
   int i;
