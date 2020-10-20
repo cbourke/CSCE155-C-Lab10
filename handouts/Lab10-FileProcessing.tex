@@ -255,7 +255,8 @@ Modify the \mintinline{text}{stateData.c} program by implementing
 \mintinline{c}{void toXMLFile(char **states, int *populations, int numStates);}
 
 \begin{enumerate}
-  \item The function should open a file for writing, \mintinline{text}{stateData.xml}
+  \item The function should open a file for writing, \mintinline{text}{stateData.xml} 
+  in the \emph{current working directory}
   \item It should create an XML file containing marked up data on all 50 states 
 	as in the example above.  
   \item Hint: a convenience function, \mintinline{text}{rtrim} has been provided 
