@@ -72,20 +72,15 @@ some manner for a program to be able to read and write it.
 
 In C, file I/O (input/output) is facilitated through several standard
 functions provided by the standard input/output (`<stdio.h>`)
-library, including those found in Table
-[1](#table:functions){reference-type="ref" reference="table:functions"}.
+library, including the following.
 
-::: {#table:functions}
-  Function                        Purpose
-  ------------------------------- --------------------------------------------------------
-  `fopen()`                   Opens a file for reading (r) or writing (w)
-  `fclose()`                  Closes the file stream passed to the function
-  `fprintf`, `fscanf`     Output/input from a file stream in a structured manner
-  `fgets()`, `fputs()`    Inputs/outputs an entire string (line) from/to a file
-  `fwrite()`, `fread()`   Inputs/outputs binary data
-
-  : Several File I/O Functions
-:::
+  | Function |                       Purpose |
+  |--- | --- |
+  `fopen()`         |          Opens a file for reading (`r`) or writing (`w`)
+  `fclose()`        |          Closes the file stream passed to the function
+  `fprintf`, `fscanf` |        Output/input from a file stream in a structured manner
+  `fgets()`, `fputs()` |   Inputs/outputs an entire string (line) from/to a file
+  `fwrite()`, `fread()` |  Inputs/outputs binary data
 
 You will use these functions to complete the activities in this lab. For
 more details, refer to a standard C reference on how to use these
