@@ -76,6 +76,6 @@ void printMLB(char **teams, double *winPerc, int numTeams) {
   int i = 0;
   printf("%-12s %-10s\n", "TEAM", "WIN PERC");
   for (i = 0; i < numTeams; i++) {
-    printf("%-12s %.3f%%\n", teams[i], winPerc[i] * 100.0);
+    printf("%-12s %.3f\n", teams[i], winPerc[i]);
   }
 }

@@ -63,7 +63,7 @@ At the end of this lab you should be familiar with the following
 
 # Background
 
-The life span of most program is short--measured in seconds or
+The life span of most programs is short--measured in seconds or
 microseconds. For data to be useful, it needs to last beyond the typical
 program. This is known as data persistence. One mechanism for persisting
 data is to store it in a file. Files can generally consist of raw binary
@@ -104,7 +104,7 @@ The way to use it is as follows: the first argument is the string to be
 tokenized, the second is the delimiter (or list of delimiters to
 tokenize on). The return value is the next token with the delimiter
 removed. The first time you call `strtok`, the first argument should
-be the string to be tokenized. Subsequent calls should use pass
+be the string to be tokenized. Subsequent calls should pass
 `NULL` to tokenize on the same string (otherwise tokenization begins
 anew on the string). The same delimiter should be passed each time. The
 tokenization ends when `strtok` returns `NULL`. Note: the
@@ -215,9 +215,9 @@ by the total number of games) from highest to lowest.
 ### Instructions
 
 1.  Open the `mlb.c` C source files. Much of the program has
-    already been provided for you, including a convenience function to
-    sort the lists of teams and their win percentages as well as a
-    function to output them.
+    already been provided for you, including *several variables* that
+    you should use, a convenience function to sort the lists of teams
+    and their win percentages as well as a function to output them.
 
 2.  Add code to open the data file and read in the team names, wins and
     losses and populate the `teams[]` and
@@ -233,8 +233,7 @@ by the total number of games) from highest to lowest.
 
     -   `mlb.c`
 
-    through the handin and verify your program compiles and runs using
-    the grader.
+    and verify your program compiles and runs.
 
 2.  Even if you worked with a partner, you *both* should turn in all
     files.
